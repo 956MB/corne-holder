@@ -36,10 +36,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB           &kp EXCLAMATION  &kp AT_SIGN      &kp POUND        &kp DOLLAR        &kp PERCENT        &kp CARET        &kp AMPERSAND    &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp LEFT_CONTROL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4   &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9       &kp KP_NUMBER_0        &kp GRAVE
-&kp LEFT_SHIFT    &trans           &trans           &trans           &trans            &trans             &trans           &trans           &trans           &trans                &trans                 &trans
-                                                    &kp LEFT_ALT     &kp LEFT_COMMAND  &kp SPACE          &kp RET          &trans           &trans
+&kp TAB           &kp EXCLAMATION       &kp AT_SIGN           &kp POUND             &kp DOLLAR            &kp PERCENT        &kp CARET        &kp AMPERSAND    &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp LEFT_CONTROL  &kp KP_NUMBER_1       &kp KP_NUMBER_2       &kp KP_NUMBER_3       &kp KP_NUMBER_4       &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9       &kp KP_NUMBER_0        &kp GRAVE
+&kp LEFT_SHIFT    &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))     &trans           &trans           &trans           &trans                &trans                 &trans
+                                                              &kp LEFT_ALT          &kp LEFT_COMMAND      &kp SPACE          &kp RET          &trans           &trans
             >;
         };
 
